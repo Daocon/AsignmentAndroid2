@@ -13,19 +13,19 @@
         android:theme="@style/Theme.Daohvph35768_ASS"
         tools:targetApi="31">
         <activity
-            android:name=".newPassword"
+            android:name=".Activity.NewPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".forgotpassword"
+            android:name=".Activity.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".wait"
+            android:name=".Activity.WaitActivity"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".Activity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".signup"
+            android:name=".Activity.SignupActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

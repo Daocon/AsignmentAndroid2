@@ -1,4 +1,4 @@
-package com.example.daohvph35768_ass;
+package com.example.daohvph35768_ass.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class wait extends AppCompatActivity {
+import com.example.daohvph35768_ass.R;
+
+public class WaitActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +19,7 @@ public class wait extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(wait.this, login.class);
+                Intent intent = new Intent(WaitActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

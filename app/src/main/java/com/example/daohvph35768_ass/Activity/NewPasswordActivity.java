@@ -1,10 +1,12 @@
-package com.example.daohvph35768_ass;
+package com.example.daohvph35768_ass.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class newPassword extends AppCompatActivity {
+import com.example.daohvph35768_ass.R;
+
+public class NewPasswordActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
