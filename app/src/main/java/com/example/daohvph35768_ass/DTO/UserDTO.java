@@ -1,16 +1,22 @@
 package com.example.daohvph35768_ass.DTO;
 
-public class TMDTO {
+public class UserDTO {
     private int id;
     private String username;
     private String fullname;
     private String password;
     private String email;
 
-    public TMDTO() {
+    public UserDTO() {
     }
 
-    public TMDTO(int id, String username, String fullname, String password, String email) {
+    public UserDTO( String username, String fullname, String password, String email) {
+        this.username = username;
+        this.fullname = fullname;
+        this.password = password;
+        this.email = email;
+    }
+    public UserDTO(int id, String username, String fullname, String password, String email) {
         this.id = id;
         this.username = username;
         this.fullname = fullname;
